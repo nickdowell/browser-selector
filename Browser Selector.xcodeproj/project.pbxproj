@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010A551118FDA68000A7D32D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010A551018FDA68000A7D32D /* MainMenu.xib */; };
+		01413FF918FC07BB008EA9D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01413FF718FC07BB008EA9D9 /* InfoPlist.strings */; };
+		01413FFB18FC07BB008EA9D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01413FFA18FC07BB008EA9D9 /* main.m */; };
+		0141400218FC07BB008EA9D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0141400118FC07BB008EA9D9 /* AppDelegate.m */; };
+		0141400718FC07BC008EA9D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0141400618FC07BC008EA9D9 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010A551018FDA68000A7D32D /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		01413FEB18FC07BB008EA9D9 /* Browser Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Browser Selector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01413FF618FC07BB008EA9D9 /* Browser Selector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Browser Selector-Info.plist"; sourceTree = "<group>"; };
+		01413FF818FC07BB008EA9D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01413FFA18FC07BB008EA9D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01413FFC18FC07BB008EA9D9 /* Browser Selector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Browser Selector-Prefix.pch"; sourceTree = "<group>"; };
+		0141400018FC07BB008EA9D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0141400118FC07BB008EA9D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0141400618FC07BC008EA9D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01413FE818FC07BB008EA9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01413FE218FC07BB008EA9D9 = {
+			isa = PBXGroup;
+			children = (
+				01413FF418FC07BB008EA9D9 /* Browser Selector */,
+				01413FEC18FC07BB008EA9D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01413FEC18FC07BB008EA9D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01413FEB18FC07BB008EA9D9 /* Browser Selector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01413FF418FC07BB008EA9D9 /* Browser Selector */ = {
+			isa = PBXGroup;
+			children = (
+				0141400018FC07BB008EA9D9 /* AppDelegate.h */,
+				0141400118FC07BB008EA9D9 /* AppDelegate.m */,
+				0141400618FC07BC008EA9D9 /* Images.xcassets */,
+				01413FF518FC07BB008EA9D9 /* Supporting Files */,
+			);
+			path = "Browser Selector";
+			sourceTree = "<group>";
+		};
+		01413FF518FC07BB008EA9D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				010A551018FDA68000A7D32D /* MainMenu.xib */,
+				01413FF618FC07BB008EA9D9 /* Browser Selector-Info.plist */,
+				01413FFC18FC07BB008EA9D9 /* Browser Selector-Prefix.pch */,
+				01413FF718FC07BB008EA9D9 /* InfoPlist.strings */,
+				01413FFA18FC07BB008EA9D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01413FEA18FC07BB008EA9D9 /* Browser Selector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0141401C18FC07BC008EA9D9 /* Build configuration list for PBXNativeTarget "Browser Selector" */;
+			buildPhases = (
+				01413FE718FC07BB008EA9D9 /* Sources */,
+				01413FE818FC07BB008EA9D9 /* Frameworks */,
+				01413FE918FC07BB008EA9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Browser Selector";
+			productName = "Browser Selector";
+			productReference = 01413FEB18FC07BB008EA9D9 /* Browser Selector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01413FE318FC07BB008EA9D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nick Dowell";
+			};
+			buildConfigurationList = 01413FE618FC07BB008EA9D9 /* Build configuration list for PBXProject "Browser Selector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01413FE218FC07BB008EA9D9;
+			productRefGroup = 01413FEC18FC07BB008EA9D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01413FEA18FC07BB008EA9D9 /* Browser Selector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01413FE918FC07BB008EA9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01413FF918FC07BB008EA9D9 /* InfoPlist.strings in Resources */,
+				0141400718FC07BC008EA9D9 /* Images.xcassets in Resources */,
+				010A551118FDA68000A7D32D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01413FE718FC07BB008EA9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0141400218FC07BB008EA9D9 /* AppDelegate.m in Sources */,
+				01413FFB18FC07BB008EA9D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01413FF718FC07BB008EA9D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01413FF818FC07BB008EA9D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0141401A18FC07BC008EA9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0141401B18FC07BC008EA9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0141401D18FC07BC008EA9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Browser Selector/Browser Selector-Prefix.pch";
+				INFOPLIST_FILE = "Browser Selector/Browser Selector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0141401E18FC07BC008EA9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Browser Selector/Browser Selector-Prefix.pch";
+				INFOPLIST_FILE = "Browser Selector/Browser Selector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01413FE618FC07BB008EA9D9 /* Build configuration list for PBXProject "Browser Selector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0141401A18FC07BC008EA9D9 /* Debug */,
+				0141401B18FC07BC008EA9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0141401C18FC07BC008EA9D9 /* Build configuration list for PBXNativeTarget "Browser Selector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0141401D18FC07BC008EA9D9 /* Debug */,
+				0141401E18FC07BC008EA9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01413FE318FC07BB008EA9D9 /* Project object */;
+}
