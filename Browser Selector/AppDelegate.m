@@ -37,7 +37,7 @@
 {
     self.autoSwitch = [[NSUserDefaults standardUserDefaults] boolForKey:@"AutoSwitch"];
     
-    // these are not real browsers, but are hadlers for the http url scheme...
+    // these are not real browsers, but are returned as default handlers for http by launch services
     NSArray *blacklist = @[@"ch.sudo.cyberduck",
                            @"com.evernote.evernote",
                            @"org.videolan.vlc",
