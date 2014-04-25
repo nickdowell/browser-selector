@@ -134,7 +134,10 @@
     NSInteger itemIndex = [[self.menu itemArray] indexOfObject:sender];
     if (itemIndex < [self.apps count]) {
         AppInfo *info = [self.apps objectAtIndex:itemIndex];
-        OSStatus status = LSSetDefaultHandlerForURLScheme(CFSTR("http"), (__bridge CFStringRef)(info.bundleIdentifier));
+        OSStatus status;
+        status = LSSetDefaultHandlerForURLScheme(CFSTR("http"), (__bridge CFStringRef)(info.bundleIdentifier));
+        NSParameterAssert(status == noErr);
+        status = LSSetDefaultHandlerForURLScheme(CFSTR("https"), (__bridge CFStringRef)(info.bundleIdentifier));
         NSParameterAssert(status == noErr);
         for (NSInteger i=0; i<[self.apps count]; i++) {
             [[self.menu itemAtIndex:i] setState:i == itemIndex ? NSOnState : NSOffState];
